@@ -22,9 +22,9 @@ class ProductList
 	public static void main(String args[])
 	{	
 		Product p1,p2,p3;
-		p1=new Product(101,"apple",25);
-		p2=new Product(102,"grape",30);
-		p3=new Product(103,"pear",20);
+		p1=new Product(101,"Grape",80);
+		p2=new Product(102,"Watermelon",30);
+		p3=new Product(103,"Pineapple",50);
 		
 		System.out.println("The product with the lowest price is:");
 		if(p1.price<p2.price && p1.price<p3.price)
